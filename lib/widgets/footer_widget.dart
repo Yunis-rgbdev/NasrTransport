@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:persian_fonts/persian_fonts.dart';
 
@@ -6,6 +7,8 @@ Widget FooterWidget() {
     color: const Color.fromARGB(255, 7, 18, 36),
     width: double.infinity,
     child: SingleChildScrollView(
+      dragStartBehavior: DragStartBehavior.down,
+      physics: BouncingScrollPhysics(),
       child: LayoutBuilder(
         builder: (context, constraints) {
           bool isMobile = constraints.maxWidth < 768;
