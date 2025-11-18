@@ -27,7 +27,7 @@ class NasrTaybadApp extends StatelessWidget {
       textDirection: TextDirection.rtl,
       child: GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Nasr Taybad',
+        title: 'نصر تایباد',
         initialRoute: '/home',
         getPages: [
           GetPage(name: '/home', page: () => const MainLayout(child: MainScreen())),

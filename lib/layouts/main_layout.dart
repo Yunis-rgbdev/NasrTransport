@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:persian_fonts/persian_fonts.dart';
-
+import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 
 class MainLayout extends StatelessWidget {
@@ -48,14 +49,7 @@ class MainLayout extends StatelessWidget {
               visualDensity: VisualDensity.standard,
               overlayColor: Colors.white54
             ),
-            child: const Text(
-              'ورود مشتریان',
-              style: TextStyle(
-                color: Color(0xFF93C5FD),
-                fontSize: 14,
-                height: 1, // keep the text baseline flat
-              ),
-            ),
+            child: TextButton(onPressed: () => launchUrlString('https://app.enasrtransport.ir'), child: Text('ورود مشتریان', style: PersianFonts.Shabnam.copyWith(color: Color(0xFF93C5FD), fontSize: 16),))
           ),
 
           const SizedBox(width: 16),
@@ -67,7 +61,7 @@ class MainLayout extends StatelessWidget {
               '051-54555403',
               style: TextStyle(
                 color: Color(0xFF93C5FD),
-                fontSize: 14,
+                fontSize: 16,
                 height: 1, // ensures the same baseline height
               ),
             ),
