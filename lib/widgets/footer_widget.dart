@@ -98,15 +98,15 @@ Widget _buildContactSection() {
       ),
       const SizedBox(height: 12),
       _buildContactText(
-        'تلفنهای ثابت دفترمرکزی :   54555403-051 الی 54555407-051',
+        'تلفنهای ثابت دفترمرکزی:   54555403-051 الی 54555407-051',
       ),
       const SizedBox(height: 8),
       _buildContactText(
-        'تلفنهای ثابت دفتر کرات  :   54534242-051, 54534343-051',
+        'تلفنهای ثابت دفتر کرات:   54534242-051, 54534343-051',
       ),
       const SizedBox(height: 8),
       _buildContactText(
-        'همراه :  3572-528-0915, 3323-528-0939, 4091-129-0915, 1648-660-0938, 0177-074-0915',
+        'همراه: 3323-528-0939, 4091-129-0915, 1648-660-0938, 0177-074-0915',
       ),
       const SizedBox(height: 20),
       Text(
@@ -119,15 +119,15 @@ Widget _buildContactSection() {
       ),
       const SizedBox(height: 12),
       _buildContactText(
-        'آدرس دفترمرکزی : شهرستان تایباد-کیلومتر 2 محور خواف – پایانه بارخصوصی تایباد- فاز2جنوبی-غرفه4',
+        'آدرس دفترمرکزی: شهرستان تایباد-کیلومتر 2 محور خواف – پایانه بارخصوصی تایباد- فاز2جنوبی-غرفه4',
       ),
       const SizedBox(height: 8),
       _buildContactText(
-        'دفتر شماره (2) : دهستان کرات – ساختمان تعاونی روستایی – شرکت حمل ونقل نصر تایباد',
+        'دفتر شماره 2: دهستان کرات – ساختمان تعاونی روستایی – شرکت حمل ونقل نصر تایباد',
       ),
       const SizedBox(height: 8),
       _buildContactText(
-        'دفتر شماره (3) : کرات – بین روستای رهنه وفرزنه – ورودی معدن کوه باخرز',
+        'دفتر شماره 3: کرات – بین روستای رهنه وفرزنه – ورودی معدن کوه باخرز',
       ),
     ],
   );
@@ -172,7 +172,7 @@ Widget _buildContactText(String text) {
     text,
     style: PersianFonts.Shabnam.copyWith(
       color: Colors.white70,
-      fontSize: 16,
+      fontSize: 15.9,
       fontWeight: FontWeight.normal,
       height: 1.6,
     ),
